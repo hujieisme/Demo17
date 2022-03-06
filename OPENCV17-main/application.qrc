@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/hujieisme.svg</file>
+        <file>images/corp.svg</file>
+        <file>images/rotate.svg</file>
+        <file>images/sort.svg</file>
+        <file>images/Back.svg</file>
+        <file>images/Extend.svg</file>
+        <file>images/Flip.svg</file>
+        <file>images/Info.svg</file>
+        <file>images/Next.svg</file>
+        <file>images/OpenFolder.svg</file>
+        <file>images/OpenImage.svg</file>
+        <file>images/Refresh.svg</file>
+        <file>images/Rotate.svg</file>
+        <file>images/ZoomIn.svg</file>
+        <file>images/ZoomOut.svg</file>
+    </qresource>
+</RCC>

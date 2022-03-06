@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImageViewer</class>
+ <widget class="QMainWindow" name="ImageViewer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>ImageViewer</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>120</y>
+      <width>571</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>569</width>
+       <height>339</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>411</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>409</width>
+       <height>349</height>
+      </rect>
+     </property>
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>351</width>
+        <height>910</height>
+       </rect>
+      </property>
+      <property name="autoScroll">
+       <bool>true</bool>
+      </property>
+      <property name="viewMode">
+       <enum>QListView::IconMode</enum>
+      </property>
+      <property name="selectionRectVisible">
+       <bool>true</bool>
+      </property>
+      <property name="itemAlignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="wenjian">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="new_2"/>
+    <addaction name="open"/>
+   </widget>
+   <widget class="QMenu" name="shitu">
+    <property name="title">
+     <string>视图</string>
+    </property>
+    <addaction name="actionC"/>
+    <addaction name="actionD"/>
+   </widget>
+   <widget class="QMenu" name="xuanxiang">
+    <property name="title">
+     <string>选项</string>
+    </property>
+    <addaction name="actionA"/>
+    <addaction name="actionB"/>
+   </widget>
+   <widget class="QMenu" name="menusad">
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <addaction name="wenjian"/>
+   <addaction name="shitu"/>
+   <addaction name="xuanxiang"/>
+   <addaction name="menusad"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="new_2">
+   <property name="text">
+    <string>新建</string>
+   </property>
+  </action>
+  <action name="open">
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="actionA">
+   <property name="text">
+    <string>A</string>
+   </property>
+  </action>
+  <action name="actionB">
+   <property name="text">
+    <string>B</string>
+   </property>
+  </action>
+  <action name="actionC">
+   <property name="text">
+    <string>C</string>
+   </property>
+  </action>
+  <action name="actionD">
+   <property name="text">
+    <string>D</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
